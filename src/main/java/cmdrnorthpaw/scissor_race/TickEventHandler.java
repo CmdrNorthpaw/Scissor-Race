@@ -7,7 +7,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber
+@Mod.EventBusSubscriber(modid = "scissor-race")
 public class TickEventHandler {
     @SubscribeEvent
     public static void serverTickEvent(TickEvent.PlayerTickEvent event) {
